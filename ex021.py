@@ -1,4 +1,4 @@
-#script que toca uma música em mp3
+#script que toca uma música em mp3 será?
 
 import playsound
 

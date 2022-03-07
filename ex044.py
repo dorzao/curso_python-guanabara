@@ -18,7 +18,8 @@ elif e == '2':
 elif e == '3':
     print('Tu não terás desconto. Pagarás duas parcelas de R$ {:.2f}. '.format(p / 2))
 else:
-    print('Tu terás um júros de 20%, pagarás ao todo R$ {:.2f}, e no caso de 3 parcelas, pagarás 3 de R$ {:.2f}'.format(p * 1.2, (p * 1.2) / 3 ))
+    par = int(input('Em quantas parcelas? '))
+    print('Tu terás um júros de 20%, pagarás ao todo R$ {:.2f}, dividido em {} parcelas de R$ {:.2f}'.format(p * 1.2, par, (p * 1.2) / par ))
 
 if e != '1' or e != '2' or e != '3' or e != '4':
     print('\nEncerrando programa...')

@@ -9,4 +9,6 @@ def cte(a, b):
 #programa principal
 print(f"{'Calculador deterreno':^40}")
 print('=' * 40)
-cte(int(input('Qual a Altura do terreno (m)? ')), int(input('Qual a largura do terreno (m)? ')))
+a = int(input('Qual a Altura do terreno (m)? '))
+b = int(input('Qual a largura do terreno (m)? '))
+cte(a, b)
